@@ -1,0 +1,1719 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "/**\r\n * @ignore\r\n */\r\nvar WebSocket = require(\"websocket\");\r\n/**\r\n * @ignore\r\n */\r\nvar WebSocketClient = WebSocket.client;\r\n/**\r\n * @ignore\r\n */\r\nvar EventEmitter = require(\"events\");\r\n/**\r\n * Base object for everything.\r\n */\r\nclass Base {\r\n  constructor(bot) {\r\n    this.bot = bot;\r\n  }\r\n}\r\n/**\r\n * @extends Base\r\n * Data packet.\r\n */\r\nclass Packet extends Base {\r\n  /**\r\n   * Data packet constructor.\r\n   * @param {string} [type=UNKNOWN] - Type.\r\n   * @param {object} [data={}] - Data.\r\n   */\r\n  constructor(bot,t = \"UNKNOWN\",d = {}) {\r\n    super(bot);\r\n    /**\r\n     * Type.\r\n     */\r\n    this.type = t;\r\n    /**\r\n     * Data.\r\n     */\r\n    this.data = d;\r\n  }\r\n  static parse(m) {\r\n    m = JSON.parse(m.utf8Data);\r\n    if (m.type == \"ERROR\") {\r\n      return new ErrorPacket(m.data.type);\r\n    } else {\r\n      return new Packet(m.type,m.data);\r\n    }\r\n  }\r\n  ws() {\r\n    var d = JSON.stringify({\"type\":this.type,\"data\":this.data});\r\n    this.bot.emit(\"debug\",`[<-] ${this.type} (${d.length.toString()}B)`);\r\n    this.bot.ws.con.sendUTF(d);\r\n  }\r\n}\r\n/**\r\n * @extends Packet\r\n * Error data packet.\r\n */\r\nclass ErrorPacket extends Packet {\r\n  constructor(t = \"UNKNOWN\") {\r\n    super(\"ERROR\",{\"type\":t});\r\n  }\r\n}\r\nclass Bot extends EventEmitter {\r\n  constructor(options) {\r\n    super();\r\n    this.options = Object.assign({\r\n      \"selfMessage\": !0,\r\n      \"intents\": new Collection()\r\n    },options);\r\n    this.servers = new Collection();\r\n    this.channels = new Collection();\r\n    this.users = new Collection();\r\n    this.user = null;\r\n    this.token = null;\r\n    this.ws = {\"wsc\":new WebSocketClient(),\"secure\":!0,\"domain\":\"mscord.com\",\"path\":\"/bot\",\"con\":null};\r\n    this.readyAtTimestamp = null;\r\n    this.readyAt = null;\r\n    this.ws.wsc.on(\"connectFailed\",()=>{\r\n      this.ws.con = null;\r\n    });\r\n    this.ws.wsc.on(\"connect\",con=>{\r\n      this.ws.con = con;\r\n      con.on(\"error\",()=>{\r\n        this.ws.con = null;\r\n      });\r\n      con.on(\"close\",()=>{\r\n        this.ws.con = null;\r\n      });\r\n      con.on(\"message\",message=>{\r\n        if (message.type == \"utf8\") {\r\n          var packet = Packet.parse(message);\r\n          this.emit(\"debug\",`[->] ${packet.type} (${message.utf8Data.length.toString()}B)`);\r\n          if (packet.type == \"BOT_DATA\") {\r\n            this.user = packet.data.user;\r\n            var gs = [];\r\n            for (var g of packet.data.myguilds) {\r\n              gs.push(new Server(this,g));\r\n            }\r\n            this.servers.add(...gs);\r\n            for (var needIntent of this.options.intents.array()) {\r\n              this.registerIntent(needIntent,()=>{\r\n                this.options.intents.remove(needIntent);\r\n              });\r\n            }\r\n            if (this.options.intents.size === 0) {\r\n              this.setReady();\r\n            } else {\r\n              var i = setInterval(()=>{\r\n                if (this.options.intents.size === 0) {\r\n                  clearInterval(i);\r\n                  this.setReady();\r\n                }\r\n              },1);\r\n            }\r\n          }\r\n          if (packet instanceof ErrorPacket) {\r\n            if (packet.data.type == \"INVALID_TOKEN\") {\r\n              throw \"INVALID_TOKEN\";\r\n            }\r\n          }\r\n          if (packet.type == \"MESSAGE_CREATE\") {\r\n            var m = new Message(this,packet.data);\r\n            if (this.selfMessage || m.author != this.user.id) {\r\n              this.emit(\"messageCreate\",m);\r\n            }\r\n          }\r\n        }\r\n      });\r\n    });\r\n  }\r\n  get ready() {\r\n    return !!this.readyAt;\r\n  }\r\n  isReady() {\r\n    return this.ready;\r\n  }\r\n  get connected() {\r\n    return !!this.ws.con;\r\n  }\r\n  isConnected() {\r\n    return this.connected;\r\n  }\r\n  async authorize(type,token) {\r\n    if (!type) {\r\n      throw \"TYPE_MISSING\";\r\n    }\r\n    if (type != \"BOT\") {\r\n      throw \"TYPE_INVALID\";\r\n    }\r\n    if (!token) {\r\n      throw \"TYPE_MISSING\";\r\n    }\r\n    if (this.ready) {\r\n      throw \"ALREADY_READY\";\r\n    }\r\n    if (!this.connected) {\r\n      await this.connect();\r\n    }\r\n    this.token = {\"type\":type,\"token\":token};\r\n    (new Packet(this,\"LOGIN\",{\"tokentype\":type,\"token\":token,\"LISTEN_ALL_GUILDS\":this.needIntents.has(\"LISTEN_ALL_GUILDS\")})).ws();\r\n    if (this.options.intents.has(\"LISTEN_ALL_GUILDS\")) {\r\n      this.options.intents.remove(\"LISTEN_ALL_GUILDS\");\r\n    }\r\n  }\r\n  connect() {\r\n    if (this.connected) {\r\n      throw \"ALREADY_CONNECTED\";\r\n    }\r\n    this.ws.wsc.connect(`ws${this.ws.secure?\"s\":\"\"}://${this.ws.domain}${this.ws.path}`);\r\n    return new Promise((r)=>{\r\n      let i = setInterval(()=>{\r\n        if (this.connected) {\r\n          clearInterval(i);\r\n          r();\r\n        }\r\n      },1);\r\n    });\r\n  }\r\n  registerIntent(t,f) {\r\n    if (!this.intents[t]) {\r\n      this.intents[t] = new Collection();\r\n    }\r\n    this.intents[t].add(f);\r\n  }\r\n  setReady() {\r\n    this.readyAtTimestamp = Date.now();\r\n    this.readyAt = new Date(this.readyAtTimestamp);\r\n    this.emit(\"ready\");\r\n  }\r\n}\r\nclass Collection {\r\n  constructor() {\r\n    this.data = [];\r\n  }\r\n  add(...o) {\r\n    this.data.push(...o);\r\n  }\r\n  remove(...o) {\r\n    if (o.length > 1) {\r\n      for (var oo of o) {\r\n        this.remove(oo);\r\n      }\r\n    } else {\r\n      this.data.splice(this.data.indexOf(o[0]),1);\r\n    }\r\n  }\r\n  array() {\r\n    return Object.assign([],this.data);\r\n  }\r\n  get size() {\r\n    return this.data.length;\r\n  }\r\n  set size(newsize) {\r\n    this.data.length = newsize;\r\n  }\r\n  filter(f) {\r\n    return this.data.filter(f);\r\n  }\r\n  find(f) {\r\n    return this.data.find(f);\r\n  }\r\n  getProperty(p,v) {\r\n    return this.data.find(e=>e[p]==v);\r\n  }\r\n  has(e) {\r\n    return this.data.includes(e);\r\n  }\r\n}\r\nclass Message extends Base {\r\n  constructor(bot,data = {}) {\r\n    super(bot);\r\n    this.type = data.type;\r\n    this.content = data.content;\r\n    this.guilds = bot.guilds.getProperty(\"id\",data.guild);\r\n    this.channel = bot.channels.getProperty(\"id\",data.channel);\r\n    this.author = bot.users.getProperty(\"id\",data.author);\r\n    this.embeds = data.embeds.map(embed=>new SimpleEmbed(bot,embed));\r\n    this.components = data.components.filter(component=>{\r\n      return component.type == \"BUTTON\";\r\n    }).map(component=>{\r\n      if (component.type == \"BUTTON\") {\r\n        return new SimpleButton(bot,component);\r\n      }\r\n    });\r\n  }\r\n}\r\nclass Server extends Base {\r\n  constructor(bot,data = {}) {\r\n    super(bot);\r\n    this.name = data.name;\r\n    this.id = data.id;\r\n    this.channels = new Collection();\r\n  }\r\n}\r\nmodule.exports = { Base, Packet, ErrorPacket, Bot, Collection, Message, Server };",
+    "static": true,
+    "longname": "C:/Users/Борис/Desktop/Полезное/msbots/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "WebSocket",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~WebSocket",
+    "access": "public",
+    "export": false,
+    "importPath": "msbots",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 4,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "WebSocketClient",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~WebSocketClient",
+    "access": "public",
+    "export": false,
+    "importPath": "msbots",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 8,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "variable",
+    "name": "EventEmitter",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~EventEmitter",
+    "access": "public",
+    "export": false,
+    "importPath": "msbots",
+    "importStyle": null,
+    "description": "",
+    "lineNumber": 12,
+    "ignore": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "class",
+    "name": "Base",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Base",
+    "access": "public",
+    "export": true,
+    "importPath": "msbots",
+    "importStyle": "{Base}",
+    "description": "Base object for everything.",
+    "lineNumber": 16,
+    "interface": false
+  },
+  {
+    "__docId__": 53,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/index.js~Base",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Base#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true
+  },
+  {
+    "__docId__": 54,
+    "kind": "member",
+    "name": "bot",
+    "memberof": "src/index.js~Base",
+    "static": false,
+    "longname": "src/index.js~Base#bot",
+    "access": "public",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "class",
+    "name": "Packet",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Packet",
+    "access": "public",
+    "export": true,
+    "importPath": "msbots",
+    "importStyle": "{Packet}",
+    "description": "",
+    "lineNumber": 25,
+    "interface": false,
+    "extends": [
+      "*"
+    ]
+  },
+  {
+    "__docId__": 56,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/index.js~Packet",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Packet#constructor",
+    "access": "public",
+    "description": "Data packet constructor.",
+    "lineNumber": 31,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "UNKNOWN",
+        "defaultRaw": "UNKNOWN",
+        "name": "type",
+        "description": "Type."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "object"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "{}",
+        "defaultRaw": {},
+        "name": "data",
+        "description": "Data."
+      }
+    ]
+  },
+  {
+    "__docId__": 57,
+    "kind": "member",
+    "name": "type",
+    "memberof": "src/index.js~Packet",
+    "static": false,
+    "longname": "src/index.js~Packet#type",
+    "access": "public",
+    "description": "Type.",
+    "lineNumber": 36,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "member",
+    "name": "data",
+    "memberof": "src/index.js~Packet",
+    "static": false,
+    "longname": "src/index.js~Packet#data",
+    "access": "public",
+    "description": "Data.",
+    "lineNumber": 40,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "method",
+    "name": "parse",
+    "memberof": "src/index.js~Packet",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/index.js~Packet.parse",
+    "access": "public",
+    "description": null,
+    "lineNumber": 42,
+    "undocument": true,
+    "params": [
+      {
+        "name": "m",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "method",
+    "name": "ws",
+    "memberof": "src/index.js~Packet",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Packet#ws",
+    "access": "public",
+    "description": null,
+    "lineNumber": 50,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 61,
+    "kind": "class",
+    "name": "ErrorPacket",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~ErrorPacket",
+    "access": "public",
+    "export": true,
+    "importPath": "msbots",
+    "importStyle": "{ErrorPacket}",
+    "description": "",
+    "lineNumber": 60,
+    "interface": false,
+    "extends": [
+      "*"
+    ]
+  },
+  {
+    "__docId__": 62,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/index.js~ErrorPacket",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~ErrorPacket#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 61,
+    "undocument": true
+  },
+  {
+    "__docId__": 63,
+    "kind": "class",
+    "name": "Bot",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Bot",
+    "access": "public",
+    "export": true,
+    "importPath": "msbots",
+    "importStyle": "{Bot}",
+    "description": null,
+    "lineNumber": 65,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "EventEmitter"
+    ]
+  },
+  {
+    "__docId__": 64,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/index.js~Bot",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Bot#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 66,
+    "undocument": true
+  },
+  {
+    "__docId__": 65,
+    "kind": "member",
+    "name": "options",
+    "memberof": "src/index.js~Bot",
+    "static": false,
+    "longname": "src/index.js~Bot#options",
+    "access": "public",
+    "description": null,
+    "lineNumber": 68,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "member",
+    "name": "servers",
+    "memberof": "src/index.js~Bot",
+    "static": false,
+    "longname": "src/index.js~Bot#servers",
+    "access": "public",
+    "description": null,
+    "lineNumber": 72,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "member",
+    "name": "channels",
+    "memberof": "src/index.js~Bot",
+    "static": false,
+    "longname": "src/index.js~Bot#channels",
+    "access": "public",
+    "description": null,
+    "lineNumber": 73,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "member",
+    "name": "users",
+    "memberof": "src/index.js~Bot",
+    "static": false,
+    "longname": "src/index.js~Bot#users",
+    "access": "public",
+    "description": null,
+    "lineNumber": 74,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "member",
+    "name": "user",
+    "memberof": "src/index.js~Bot",
+    "static": false,
+    "longname": "src/index.js~Bot#user",
+    "access": "public",
+    "description": null,
+    "lineNumber": 75,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "member",
+    "name": "token",
+    "memberof": "src/index.js~Bot",
+    "static": false,
+    "longname": "src/index.js~Bot#token",
+    "access": "public",
+    "description": null,
+    "lineNumber": 76,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "member",
+    "name": "ws",
+    "memberof": "src/index.js~Bot",
+    "static": false,
+    "longname": "src/index.js~Bot#ws",
+    "access": "public",
+    "description": null,
+    "lineNumber": 77,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"wsc\": *, \"secure\": *, \"domain\": string, \"path\": string, \"con\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "member",
+    "name": "readyAtTimestamp",
+    "memberof": "src/index.js~Bot",
+    "static": false,
+    "longname": "src/index.js~Bot#readyAtTimestamp",
+    "access": "public",
+    "description": null,
+    "lineNumber": 78,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "member",
+    "name": "readyAt",
+    "memberof": "src/index.js~Bot",
+    "static": false,
+    "longname": "src/index.js~Bot#readyAt",
+    "access": "public",
+    "description": null,
+    "lineNumber": 79,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 75,
+    "kind": "get",
+    "name": "ready",
+    "memberof": "src/index.js~Bot",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Bot#ready",
+    "access": "public",
+    "description": null,
+    "lineNumber": 133,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "method",
+    "name": "isReady",
+    "memberof": "src/index.js~Bot",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Bot#isReady",
+    "access": "public",
+    "description": null,
+    "lineNumber": 136,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 77,
+    "kind": "get",
+    "name": "connected",
+    "memberof": "src/index.js~Bot",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Bot#connected",
+    "access": "public",
+    "description": null,
+    "lineNumber": 139,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "method",
+    "name": "isConnected",
+    "memberof": "src/index.js~Bot",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Bot#isConnected",
+    "access": "public",
+    "description": null,
+    "lineNumber": 142,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 79,
+    "kind": "method",
+    "name": "authorize",
+    "memberof": "src/index.js~Bot",
+    "generator": false,
+    "async": true,
+    "static": false,
+    "longname": "src/index.js~Bot#authorize",
+    "access": "public",
+    "description": null,
+    "lineNumber": 145,
+    "undocument": true,
+    "params": [
+      {
+        "name": "type",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "token",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 81,
+    "kind": "method",
+    "name": "connect",
+    "memberof": "src/index.js~Bot",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Bot#connect",
+    "access": "public",
+    "description": null,
+    "lineNumber": 167,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "method",
+    "name": "registerIntent",
+    "memberof": "src/index.js~Bot",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Bot#registerIntent",
+    "access": "public",
+    "description": null,
+    "lineNumber": 181,
+    "undocument": true,
+    "params": [
+      {
+        "name": "t",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "f",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 83,
+    "kind": "method",
+    "name": "setReady",
+    "memberof": "src/index.js~Bot",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Bot#setReady",
+    "access": "public",
+    "description": null,
+    "lineNumber": 187,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 86,
+    "kind": "class",
+    "name": "Collection",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Collection",
+    "access": "public",
+    "export": true,
+    "importPath": "msbots",
+    "importStyle": "{Collection}",
+    "description": null,
+    "lineNumber": 193,
+    "undocument": true,
+    "interface": false
+  },
+  {
+    "__docId__": 87,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/index.js~Collection",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Collection#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 194,
+    "undocument": true
+  },
+  {
+    "__docId__": 88,
+    "kind": "member",
+    "name": "data",
+    "memberof": "src/index.js~Collection",
+    "static": false,
+    "longname": "src/index.js~Collection#data",
+    "access": "public",
+    "description": null,
+    "lineNumber": 195,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*[]"
+      ]
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "method",
+    "name": "add",
+    "memberof": "src/index.js~Collection",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Collection#add",
+    "access": "public",
+    "description": null,
+    "lineNumber": 197,
+    "undocument": true,
+    "params": [
+      {
+        "name": "o",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 90,
+    "kind": "method",
+    "name": "remove",
+    "memberof": "src/index.js~Collection",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Collection#remove",
+    "access": "public",
+    "description": null,
+    "lineNumber": 200,
+    "undocument": true,
+    "params": [
+      {
+        "name": "o",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 91,
+    "kind": "method",
+    "name": "array",
+    "memberof": "src/index.js~Collection",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Collection#array",
+    "access": "public",
+    "description": null,
+    "lineNumber": 209,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "get",
+    "name": "size",
+    "memberof": "src/index.js~Collection",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Collection#size",
+    "access": "public",
+    "description": null,
+    "lineNumber": 212,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 93,
+    "kind": "set",
+    "name": "size",
+    "memberof": "src/index.js~Collection",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Collection#size",
+    "access": "public",
+    "description": null,
+    "lineNumber": 215,
+    "undocument": true
+  },
+  {
+    "__docId__": 94,
+    "kind": "method",
+    "name": "filter",
+    "memberof": "src/index.js~Collection",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Collection#filter",
+    "access": "public",
+    "description": null,
+    "lineNumber": 218,
+    "undocument": true,
+    "params": [
+      {
+        "name": "f",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 95,
+    "kind": "method",
+    "name": "find",
+    "memberof": "src/index.js~Collection",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Collection#find",
+    "access": "public",
+    "description": null,
+    "lineNumber": 221,
+    "undocument": true,
+    "params": [
+      {
+        "name": "f",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "method",
+    "name": "getProperty",
+    "memberof": "src/index.js~Collection",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Collection#getProperty",
+    "access": "public",
+    "description": null,
+    "lineNumber": 224,
+    "undocument": true,
+    "params": [
+      {
+        "name": "p",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "v",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "method",
+    "name": "has",
+    "memberof": "src/index.js~Collection",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Collection#has",
+    "access": "public",
+    "description": null,
+    "lineNumber": 227,
+    "undocument": true,
+    "params": [
+      {
+        "name": "e",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 98,
+    "kind": "class",
+    "name": "Message",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Message",
+    "access": "public",
+    "export": true,
+    "importPath": "msbots",
+    "importStyle": "{Message}",
+    "description": null,
+    "lineNumber": 231,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "Base"
+    ]
+  },
+  {
+    "__docId__": 99,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/index.js~Message",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Message#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 232,
+    "undocument": true
+  },
+  {
+    "__docId__": 100,
+    "kind": "member",
+    "name": "type",
+    "memberof": "src/index.js~Message",
+    "static": false,
+    "longname": "src/index.js~Message#type",
+    "access": "public",
+    "description": null,
+    "lineNumber": 234,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "member",
+    "name": "content",
+    "memberof": "src/index.js~Message",
+    "static": false,
+    "longname": "src/index.js~Message#content",
+    "access": "public",
+    "description": null,
+    "lineNumber": 235,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 102,
+    "kind": "member",
+    "name": "guilds",
+    "memberof": "src/index.js~Message",
+    "static": false,
+    "longname": "src/index.js~Message#guilds",
+    "access": "public",
+    "description": null,
+    "lineNumber": 236,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 103,
+    "kind": "member",
+    "name": "channel",
+    "memberof": "src/index.js~Message",
+    "static": false,
+    "longname": "src/index.js~Message#channel",
+    "access": "public",
+    "description": null,
+    "lineNumber": 237,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 104,
+    "kind": "member",
+    "name": "author",
+    "memberof": "src/index.js~Message",
+    "static": false,
+    "longname": "src/index.js~Message#author",
+    "access": "public",
+    "description": null,
+    "lineNumber": 238,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 105,
+    "kind": "member",
+    "name": "embeds",
+    "memberof": "src/index.js~Message",
+    "static": false,
+    "longname": "src/index.js~Message#embeds",
+    "access": "public",
+    "description": null,
+    "lineNumber": 239,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 106,
+    "kind": "member",
+    "name": "components",
+    "memberof": "src/index.js~Message",
+    "static": false,
+    "longname": "src/index.js~Message#components",
+    "access": "public",
+    "description": null,
+    "lineNumber": 240,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 107,
+    "kind": "class",
+    "name": "Server",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Server",
+    "access": "public",
+    "export": true,
+    "importPath": "msbots",
+    "importStyle": "{Server}",
+    "description": null,
+    "lineNumber": 249,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "Base"
+    ]
+  },
+  {
+    "__docId__": 108,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/index.js~Server",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/index.js~Server#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 250,
+    "undocument": true
+  },
+  {
+    "__docId__": 109,
+    "kind": "member",
+    "name": "name",
+    "memberof": "src/index.js~Server",
+    "static": false,
+    "longname": "src/index.js~Server#name",
+    "access": "public",
+    "description": null,
+    "lineNumber": 252,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 110,
+    "kind": "member",
+    "name": "id",
+    "memberof": "src/index.js~Server",
+    "static": false,
+    "longname": "src/index.js~Server#id",
+    "access": "public",
+    "description": null,
+    "lineNumber": 253,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 111,
+    "kind": "member",
+    "name": "channels",
+    "memberof": "src/index.js~Server",
+    "static": false,
+    "longname": "src/index.js~Server#channels",
+    "access": "public",
+    "description": null,
+    "lineNumber": 254,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# Nothing.",
+    "longname": "C:\\Users\\Борис\\Desktop\\Полезное\\msbots\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"msbots\",\n  \"version\": \"0.1.1\",\n  \"type\": \"module\",\n  \"description\": \"Модуль для интерактивности и создания ботов с MSCord Chat API.\",\n  \"main\": \"src/index.js\",\n  \"directories\": {\n    \"test\": \"test\"\n  },\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"keywords\": [\n    \"mscord\",\n    \"ms\",\n    \"msbots\",\n    \"msapi\",\n    \"api\",\n    \"chat\",\n    \"mscordchat\",\n    \"mschat\",\n    \"bot\",\n    \"msbot\"\n  ],\n  \"author\": \"MSCord\",\n  \"license\": \"ISC\",\n  \"dependencies\": {\n    \"websocket\": \"^1.0.34\"\n  },\n  \"devDependencies\": {\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\"\n  }\n}\n",
+    "longname": "C:\\Users\\Борис\\Desktop\\Полезное\\msbots\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

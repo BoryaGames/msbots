@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/index.js | msbots</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="&#x41C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; &#x434;&#x43B;&#x44F; &#x438;&#x43D;&#x442;&#x435;&#x440;&#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x438; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x431;&#x43E;&#x442;&#x43E;&#x432; &#x441; MSCord Chat API."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="msbots"><meta property="twitter:description" content="&#x41C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; &#x434;&#x43B;&#x44F; &#x438;&#x43D;&#x442;&#x435;&#x440;&#x430;&#x43A;&#x442;&#x438;&#x432;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x438; &#x441;&#x43E;&#x437;&#x434;&#x430;&#x43D;&#x438;&#x44F; &#x431;&#x43E;&#x442;&#x43E;&#x432; &#x441; MSCord Chat API."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/index.js~Base.html">Base</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/index.js~Bot.html">Bot</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/index.js~Collection.html">Collection</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/index.js~ErrorPacket.html">ErrorPacket</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/index.js~Message.html">Message</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/index.js~Packet.html">Packet</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/index.js~Server.html">Server</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-EventEmitter">EventEmitter</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+ * @ignore
+ */
+var WebSocket = require(&quot;websocket&quot;);
+/**
+ * @ignore
+ */
+var WebSocketClient = WebSocket.client;
+/**
+ * @ignore
+ */
+var EventEmitter = require(&quot;events&quot;);
+/**
+ * Base object for everything.
+ */
+class Base {
+  constructor(bot) {
+    this.bot = bot;
+  }
+}
+/**
+ * @extends Base
+ * Data packet.
+ */
+class Packet extends Base {
+  /**
+   * Data packet constructor.
+   * @param {string} [type=UNKNOWN] - Type.
+   * @param {object} [data={}] - Data.
+   */
+  constructor(bot,t = &quot;UNKNOWN&quot;,d = {}) {
+    super(bot);
+    /**
+     * Type.
+     */
+    this.type = t;
+    /**
+     * Data.
+     */
+    this.data = d;
+  }
+  static parse(m) {
+    m = JSON.parse(m.utf8Data);
+    if (m.type == &quot;ERROR&quot;) {
+      return new ErrorPacket(m.data.type);
+    } else {
+      return new Packet(m.type,m.data);
+    }
+  }
+  ws() {
+    var d = JSON.stringify({&quot;type&quot;:this.type,&quot;data&quot;:this.data});
+    this.bot.emit(&quot;debug&quot;,`[&lt;-] ${this.type} (${d.length.toString()}B)`);
+    this.bot.ws.con.sendUTF(d);
+  }
+}
+/**
+ * @extends Packet
+ * Error data packet.
+ */
+class ErrorPacket extends Packet {
+  constructor(t = &quot;UNKNOWN&quot;) {
+    super(&quot;ERROR&quot;,{&quot;type&quot;:t});
+  }
+}
+class Bot extends EventEmitter {
+  constructor(options) {
+    super();
+    this.options = Object.assign({
+      &quot;selfMessage&quot;: !0,
+      &quot;intents&quot;: new Collection()
+    },options);
+    this.servers = new Collection();
+    this.channels = new Collection();
+    this.users = new Collection();
+    this.user = null;
+    this.token = null;
+    this.ws = {&quot;wsc&quot;:new WebSocketClient(),&quot;secure&quot;:!0,&quot;domain&quot;:&quot;mscord.com&quot;,&quot;path&quot;:&quot;/bot&quot;,&quot;con&quot;:null};
+    this.readyAtTimestamp = null;
+    this.readyAt = null;
+    this.ws.wsc.on(&quot;connectFailed&quot;,()=&gt;{
+      this.ws.con = null;
+    });
+    this.ws.wsc.on(&quot;connect&quot;,con=&gt;{
+      this.ws.con = con;
+      con.on(&quot;error&quot;,()=&gt;{
+        this.ws.con = null;
+      });
+      con.on(&quot;close&quot;,()=&gt;{
+        this.ws.con = null;
+      });
+      con.on(&quot;message&quot;,message=&gt;{
+        if (message.type == &quot;utf8&quot;) {
+          var packet = Packet.parse(message);
+          this.emit(&quot;debug&quot;,`[-&gt;] ${packet.type} (${message.utf8Data.length.toString()}B)`);
+          if (packet.type == &quot;BOT_DATA&quot;) {
+            this.user = packet.data.user;
+            var gs = [];
+            for (var g of packet.data.myguilds) {
+              gs.push(new Server(this,g));
+            }
+            this.servers.add(...gs);
+            for (var needIntent of this.options.intents.array()) {
+              this.registerIntent(needIntent,()=&gt;{
+                this.options.intents.remove(needIntent);
+              });
+            }
+            if (this.options.intents.size === 0) {
+              this.setReady();
+            } else {
+              var i = setInterval(()=&gt;{
+                if (this.options.intents.size === 0) {
+                  clearInterval(i);
+                  this.setReady();
+                }
+              },1);
+            }
+          }
+          if (packet instanceof ErrorPacket) {
+            if (packet.data.type == &quot;INVALID_TOKEN&quot;) {
+              throw &quot;INVALID_TOKEN&quot;;
+            }
+          }
+          if (packet.type == &quot;MESSAGE_CREATE&quot;) {
+            var m = new Message(this,packet.data);
+            if (this.selfMessage || m.author != this.user.id) {
+              this.emit(&quot;messageCreate&quot;,m);
+            }
+          }
+        }
+      });
+    });
+  }
+  get ready() {
+    return !!this.readyAt;
+  }
+  isReady() {
+    return this.ready;
+  }
+  get connected() {
+    return !!this.ws.con;
+  }
+  isConnected() {
+    return this.connected;
+  }
+  async authorize(type,token) {
+    if (!type) {
+      throw &quot;TYPE_MISSING&quot;;
+    }
+    if (type != &quot;BOT&quot;) {
+      throw &quot;TYPE_INVALID&quot;;
+    }
+    if (!token) {
+      throw &quot;TYPE_MISSING&quot;;
+    }
+    if (this.ready) {
+      throw &quot;ALREADY_READY&quot;;
+    }
+    if (!this.connected) {
+      await this.connect();
+    }
+    this.token = {&quot;type&quot;:type,&quot;token&quot;:token};
+    (new Packet(this,&quot;LOGIN&quot;,{&quot;tokentype&quot;:type,&quot;token&quot;:token,&quot;LISTEN_ALL_GUILDS&quot;:this.needIntents.has(&quot;LISTEN_ALL_GUILDS&quot;)})).ws();
+    if (this.options.intents.has(&quot;LISTEN_ALL_GUILDS&quot;)) {
+      this.options.intents.remove(&quot;LISTEN_ALL_GUILDS&quot;);
+    }
+  }
+  connect() {
+    if (this.connected) {
+      throw &quot;ALREADY_CONNECTED&quot;;
+    }
+    this.ws.wsc.connect(`ws${this.ws.secure?&quot;s&quot;:&quot;&quot;}://${this.ws.domain}${this.ws.path}`);
+    return new Promise((r)=&gt;{
+      let i = setInterval(()=&gt;{
+        if (this.connected) {
+          clearInterval(i);
+          r();
+        }
+      },1);
+    });
+  }
+  registerIntent(t,f) {
+    if (!this.intents[t]) {
+      this.intents[t] = new Collection();
+    }
+    this.intents[t].add(f);
+  }
+  setReady() {
+    this.readyAtTimestamp = Date.now();
+    this.readyAt = new Date(this.readyAtTimestamp);
+    this.emit(&quot;ready&quot;);
+  }
+}
+class Collection {
+  constructor() {
+    this.data = [];
+  }
+  add(...o) {
+    this.data.push(...o);
+  }
+  remove(...o) {
+    if (o.length &gt; 1) {
+      for (var oo of o) {
+        this.remove(oo);
+      }
+    } else {
+      this.data.splice(this.data.indexOf(o[0]),1);
+    }
+  }
+  array() {
+    return Object.assign([],this.data);
+  }
+  get size() {
+    return this.data.length;
+  }
+  set size(newsize) {
+    this.data.length = newsize;
+  }
+  filter(f) {
+    return this.data.filter(f);
+  }
+  find(f) {
+    return this.data.find(f);
+  }
+  getProperty(p,v) {
+    return this.data.find(e=&gt;e[p]==v);
+  }
+  has(e) {
+    return this.data.includes(e);
+  }
+}
+class Message extends Base {
+  constructor(bot,data = {}) {
+    super(bot);
+    this.type = data.type;
+    this.content = data.content;
+    this.guilds = bot.guilds.getProperty(&quot;id&quot;,data.guild);
+    this.channel = bot.channels.getProperty(&quot;id&quot;,data.channel);
+    this.author = bot.users.getProperty(&quot;id&quot;,data.author);
+    this.embeds = data.embeds.map(embed=&gt;new SimpleEmbed(bot,embed));
+    this.components = data.components.filter(component=&gt;{
+      return component.type == &quot;BUTTON&quot;;
+    }).map(component=&gt;{
+      if (component.type == &quot;BUTTON&quot;) {
+        return new SimpleButton(bot,component);
+      }
+    });
+  }
+}
+class Server extends Base {
+  constructor(bot,data = {}) {
+    super(bot);
+    this.name = data.name;
+    this.id = data.id;
+    this.channels = new Collection();
+  }
+}
+module.exports = { Base, Packet, ErrorPacket, Bot, Collection, Message, Server };</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
